@@ -1354,7 +1354,7 @@
             jdbc:mysql://10.1.23.186:3306/${db.name}?createDatabaseIfNotExist=true&amp;amp;useUnicode=true&amp;amp;characterEncoding=utf-8&amp;amp;autoReconnect=true
         </jdbc.url>
         <jdbc.username>root</jdbc.username>
-        <jdbc.password/>root</jdbc.password>
+        <jdbc.password>root</jdbc.password>
         <jdbc.validationQuery><![CDATA[SELECT 1 + 1]]></jdbc.validationQuery>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <skipITs>true</skipITs>
